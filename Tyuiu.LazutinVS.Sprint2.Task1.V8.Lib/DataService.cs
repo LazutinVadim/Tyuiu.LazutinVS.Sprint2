@@ -9,7 +9,7 @@ namespace Tyuiu.LazutinVS.Sprint2.Task1.V8.Lib
             bool[] res = new bool[6];
             res[0] = (a == b) | (c != d);
             res[1] = (a < b) & (c > d);
-            res[2] = (a >= b) || (c <= d);
+            res[2] = (a >ConsoleApp1= b) || (c <= d);
             res[3] = (a == b) && (c < d);
             res[4] = !(res[0]);
             res[5] = (a != b) ^ (c < d);
