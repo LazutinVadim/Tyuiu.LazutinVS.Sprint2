@@ -8,19 +8,19 @@ namespace Tyuiu.LazutinVS.Sprint2.Task5.V3.Lib
             switch (value)
             {
                 case 1:
-                    return "Понедельник";
+                    return "понедельник";
                 case 2:
-                    return "Вторник";
+                    return "вторник";
                 case 3:
-                    return "Среда";
+                    return "среда";
                 case 4:
-                    return "Четверг";
+                    return "четверг";
                 case 5:
-                    return "Пятница";
+                    return "пятница";
                 case 6:
-                    return "Суббота";
+                    return "суббота";
                 case 7:
-                    return "Воскресенье";
+                    return "воскресенье";
                 default:
                     return "Ошибка";
             }
