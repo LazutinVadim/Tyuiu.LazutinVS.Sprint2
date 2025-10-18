@@ -7,7 +7,7 @@ namespace Tyuiu.LazutinVS.Sprint2.Task7.V5.Lib
         {
 
             bool res;
-            if (((x < 0) && (y >= Math.Pow(x, 2)) && (y <= Math.Pow(Math.E, x))) || ((x > 0) && (y >= Math.Pow(x, 2)) && (y <= Math.Pow(Math.E, -x))))
+            if (y >= Math.Pow(x, 2) && y <= Math.Exp(x) && y <= Math.Exp(-x) && x >= 0 && y >= 0)
             {
                 res = true;
             }
