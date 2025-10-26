@@ -6,14 +6,16 @@ namespace Tyuiu.LazutinVS.Sprint2.Task7.V5.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            if (x >= 0)
+            bool res;
+            if (((x < 0) && (y >= Math.Pow(x, 2)) && (y <= Math.Pow(Math.E, x))) || ((x > 0) && (y >= Math.Pow(x, 2)) && (y <= Math.Pow(Math.E, -x))))
             {
-                if (((Math.Pow(x, 2) - 2) <= y) && (x >= y)) return true;
-                else return false;
+                res = true;
             }
-            else if (((Math.Pow(x, 2) - 2) <= y) && (-x >= y)) return true;
-            else return false;
-
+            else
+            {
+                res = false;
+            }
+            return res;
         }
     }
 }
